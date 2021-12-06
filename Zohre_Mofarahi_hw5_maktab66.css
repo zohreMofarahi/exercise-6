@@ -43,6 +43,8 @@ p:hover{
     padding:10px 20px;
     border-radius: 20px;
     box-sizing: border-box;
+    transition: all 0.4s ease; 
+    
 }
 
 
@@ -53,7 +55,7 @@ h1 {
     text-align: center;
   
 }
-p:nth-child(6) {
+button {
     color: white;
     display: inline-block;
     width: 170px;
@@ -62,27 +64,96 @@ p:nth-child(6) {
     font-size: 14px;
     text-align: center;
     border-radius: 55px;
+    border-color:#45a132;
     background-color: #45a132;
     margin-right: 380px;
     box-sizing: border-box;
-          
+    vertical-align: 40px;
+    font-family: IRANSans, sans-serif ; 
+     
 }
 
-#icons img {
+#icons {
+    position: relative;
+    margin-bottom: 150px;
+}
+
+
+div1 {
     
-    display: inline-block;
+    content:" ";
+    background-color: #ffca1d;
+    display:inline-block;
     width: 100px;
     height: 100px;
-    margin-top: 50px;
-    margin-right: 180px;
-    background-position: center;
-    border-radius: 40%;
-    background-color:#ffca1d ;
-    padding:50px;
-    vertical-align:text-bottom ;
-
-
+    border-radius: 50%;
+    padding: 60px;
+    margin-top:50px;
+    margin-right: 240px;
+    vertical-align: bottom;
+    
 }
+
+div2 {
+  
+    content:" ";
+    background-color: #ffca1d;
+    display:inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 60px;
+    margin-top:50px;
+    margin-right: 200px;
+    vertical-align: bottom;
+}
+
+
+div3 {
+    
+    content:" ";
+    background-color: #ffca1d;
+    display:inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 60px;
+    margin-top:50px;
+    margin-right: 220px;
+    vertical-align: bottom;
+}
+
+div img {
+
+    margin-right:-8px ;
+    margin-left:auto ;
+  }
+  .leaf {
+     margin-right: 5px;
+    
+  }
+
+p1 {
+    position: absolute;
+    top:285px;
+    right:305px;
+}
+
+p2 {
+    position: absolute;
+    top:285px;
+    right:720px;
+}
+
+p3 {
+    position: absolute;
+    top:285px;
+    right:1175px;
+}
+
+
+
+
 
 #part3 {
     margin-top: 100px;
@@ -117,7 +188,9 @@ h1:nth-child(1) {
 
 #part3 img:hover {
     border-bottom:#45a132 solid 20px ;
-
+    transition: all 0.4s ease;
+      
+   
 }
 
 
@@ -130,6 +203,7 @@ p4{ color: #45a132;
     box-sizing: border-box;
     
 }
+
 
 p5{ color: #45a132;
     position:absolute;
