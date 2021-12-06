@@ -1,0 +1,157 @@
+@font-face {
+    font-family:IRANSans ;
+    src: url('./Fonts/Sans\ a4fran3.eot') format('eof');
+    src: url('./Fonts/Sans\ a4fran3.woff') format('woff');
+}
+
+
+body {
+    font-family: IRANSans, sans-serif ;
+}
+
+#header {
+    background-color:#45a132 ;
+    border-top: 2px solid #4b4b4b;
+    padding-top: 20px;
+
+}
+
+.menu {
+    
+    border-bottom: 1px solid #d6d6d6;
+    
+}
+#img1 {
+    display: inline-block;
+    width: 154px;
+    height: 68px;
+    margin: 20px 200px 20px 70px;
+}
+
+p{
+    display: inline-block;
+    margin-left:56px;
+    font-size: 12px;
+    box-sizing: border-box; 
+    vertical-align: 40px; 
+}
+p:hover{
+    color: #ffffff;
+    display: inline-block;
+    block-size: 40px 20px;
+    background-color: #93c588;
+    padding:10px 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+h1 {
+    text-align: center;
+  
+}
+p:nth-child(6) {
+    color: white;
+    display: inline-block;
+    width: 170px;
+    height: 36px;
+    padding: 6px 18px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 55px;
+    background-color: #45a132;
+    margin-right: 380px;
+    box-sizing: border-box;
+          
+}
+
+#icons img {
+    
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-right: 180px;
+    background-position: center;
+    border-radius: 40%;
+    background-color:#ffca1d ;
+    padding:50px;
+    vertical-align:text-bottom ;
+
+
+}
+
+#part3 {
+    margin-top: 100px;
+    padding-top: 20px;
+    background-color: #f2f2f2;
+
+
+}
+
+h1:nth-child(1) {
+    color:#45a132 ;
+    margin-bottom: 100px;
+}
+
+#part3 {
+ position: relative;
+
+}
+
+
+#part3 img {
+    height: 60px;
+    width: 60px;
+    background-color: #ffffff;
+    padding: 68px 104px 100px 104px;
+    border-radius:10% ;
+    margin-right: 90px;
+    margin-bottom: 100px;
+  
+    
+}
+
+#part3 img:hover {
+    border-bottom:#45a132 solid 20px ;
+
+}
+
+
+
+
+p4{ color: #45a132;
+    position:absolute;
+    top: 330px;
+    right:185px;
+    box-sizing: border-box;
+    
+}
+
+p5{ color: #45a132;
+    position:absolute;
+    top: 330px;
+    right:575px;
+    box-sizing: border-box;
+    
+}
+
+p6{ color: #45a132;
+    position:absolute;
+    top: 330px;
+    right:900px;
+    box-sizing: border-box;
+    
+}
+
+p7{ color: #45a132;
+    position:absolute;
+    top: 330px;
+    right:1268px;
+    box-sizing: border-box;
+    
+}
+
